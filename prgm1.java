@@ -1,12 +1,6 @@
 // hello world program in C
 
-#include <stdio.h>
 
-int main()
-{
-   printf("Hello World!");
-   return 0;
-}
 
  // hello world program in JAVA 
 
