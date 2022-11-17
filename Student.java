@@ -42,8 +42,4 @@ public class Student {
 			{
 				System.out.format("Student %d details are \n",m+1);
 				st[m].displayStudent();
-			}
-		
-	}
-
-}
+			
