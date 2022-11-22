@@ -28,12 +28,4 @@ public class Quadratic {
 		}
 		else
 		{
-			double real = -b/(2*a);
-			double imaginary=Math.sqrt(-d)/(2*a);
-			System.out.println("the roots are imaginary");
-			System.out.format("root1=%.2f+%.2f;,",real,imaginary);
-			System.out.format("root1=%.2f-%.2f;,",real,imaginary);
-		}
-	}
 
-}
