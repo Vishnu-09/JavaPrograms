@@ -1,7 +1,6 @@
 import java.util.*;
 public class Student {
-	String USN,Name,Branch;
-	long phone;
+	
 	
 		void insertStudent(String reg, String nm, String br,long ph)
 		{
