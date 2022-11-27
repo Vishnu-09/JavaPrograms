@@ -41,6 +41,8 @@ String USN,Name,Branch;
 			for (int m=0;m<n;m++)
 			{
 			
+				System.out.format("Student %d details are \n",m+1);
+				st[m].displayStudent();
 			}
 	}
 }
