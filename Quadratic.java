@@ -22,7 +22,9 @@ public class Quadratic {
 		}
 		else if(d==0)
 		{
-			
+				root1=root2=-b/(2*a);
+			System.out.println("the roots are real and equal");
+			System.out.format("root1=root2=%.2f:",root1);
 		}
 		else
 		{
