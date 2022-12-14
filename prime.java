@@ -15,3 +15,15 @@ public class prime {
 					flag=1;
 					break;
 				}
+				}
+if(flag==1)
+{
+	System.out.println("not a prime number");
+}
+else
+{
+	System.out.println("it is a prime");
+	
+}
+}
+}
