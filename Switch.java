@@ -29,3 +29,12 @@ switch(operator)
 	  System.out.println("the result is:" +first+operator+second+"="+result);
 	  break;
 	case '/':
+	result=first/second;
+	  System.out.println("the result is:" +first+operator+second+"="+result);
+	  break;
+	  default :
+		  System.out.println("invalid operator");
+		  break;
+}
+}
+}
