@@ -16,6 +16,20 @@ double second=ip.nextInt();
 double result=0;
 switch(operator)
 {
+		
+		case '+':
+	result=first+second;
+  System.out.println("the result is:"+first+operator+second+"="+result );
+  break;
+	case '-':
+	result=first-second;
+	  System.out.println("the result is:" +first+operator+second+"="+result);
+	  break;
+	case '*':
+	result=first*second;
+	  System.out.println("the result is:" +first+operator+second+"="+result);
+	  break;
+	case '/':
 	
 	result=first/second;
 	  System.out.println("the result is:" +first+operator+second+"="+result);
