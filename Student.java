@@ -31,6 +31,14 @@ String USN,Name,Branch;
 			
 		for(int j=0;j<n;j++)
 			{
+			
+				System.out.println("Enter the USN,Name,Branch,Phone number");
+				String USN=ip.next();
+				String Name=ip.next();
+				String Branch=ip.next();
+				long phone=ip.nextLong();
+				st[j].insertStudent(USN, Name, Branch, phone);
+			}
 			for (int m=0;m<n;m++)
 			{
 			
