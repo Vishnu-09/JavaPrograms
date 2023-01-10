@@ -25,3 +25,11 @@ class moverload
 	{
 		Moverloading obj=new Moverloading();
 	int s1=obj.add(10,20);
+	int s2=obj.add(10,20,30);
+	float s3=obj.add(2.2f, 2.2f);
+	
+	System.out.println("Method moverload sum1"+s1);
+	System.out.println("Method moverload sum2"+s2);
+	System.out.println("Method moverload sum3"+s3);
+	}
+}
