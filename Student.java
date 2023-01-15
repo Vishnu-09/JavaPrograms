@@ -20,18 +20,8 @@ String USN,Name,Branch;
 			System.out.println("Phone number="+phone);
 			System.out.println("**********");
 		}
-	public static void main(String args[]) {
-		// TODO Auto-generated method stub
-		Student st[]=new Student[100];
-		Scanner ip=new Scanner(System.in);
-		System.out.println("Enter the number of students");
-		int n=ip.nextInt();
-		for(int i=0;i<n;i++)
-		st[i]=new Student();
-			
-		for(int j=0;j<n;j++)
-			{
-			
+	
+	..
 				System.out.println("Enter the USN,Name,Branch,Phone number");
 				String USN=ip.next();
 				String Name=ip.next();
